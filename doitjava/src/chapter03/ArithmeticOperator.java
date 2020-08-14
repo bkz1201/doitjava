@@ -18,5 +18,8 @@ public class ArithmeticOperator {
 		System.out.println(dRes);
 		iRes=3%2;
 		System.out.println(iRes);
+		
+		dRes=(double)3/2;
+		System.out.println(dRes);
 	}
 }
