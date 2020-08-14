@@ -11,6 +11,7 @@ public class Chp2Final {
 		int iVal = '±Û';
 		char cVal = (char)iVal;
 		
+		System.out.println(iVal);
 		System.out.println(cVal);
 	}
 }
