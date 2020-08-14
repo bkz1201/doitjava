@@ -5,13 +5,19 @@ public class Chp2Final {
 		int iNum = 10;
 		double dNum = 2.0;
 		int iRes = iNum + (int)dNum;
+		System.out.println(iRes);
+		iRes = iNum - (int)dNum;
+		System.out.println(iRes);
+		iRes = iNum * (int)dNum;
+		System.out.println(iRes);
+		iRes = iNum / (int)dNum;
+		System.out.println(iRes);//연습문제 4
 		
-		System.out.println(iRes);	//연습문제 4
-		
-		int iVal = '글';
-		char cVal = (char)iVal;
-		
-		System.out.println(iVal);
+//		int iVal = '글';
+//		char cVal = (char)iVal;
+//		
+//		System.out.println(iVal);
+		char cVal = '글';
 		System.out.println(cVal);
 	}
 }
