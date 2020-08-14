@@ -27,5 +27,9 @@ public class PromotionEx {
 		long longValue = 10000L;
 		long res2 = intValue + longValue;
 		System.out.println(res2);
+		
+//		double dN = 1.11;
+//		int iN = dN;
+//		System.out.println(in);
 	}
 }
