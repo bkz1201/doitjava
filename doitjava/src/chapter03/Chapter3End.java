@@ -37,6 +37,25 @@ public class Chapter3End {
 		System.out.println(res);
 		res = ((n1 > 10) || (n2 > 10));
 		System.out.println(res);
-		System.out.println(!res);	/4번문제
+		System.out.println(!res);	//4번문제
+		
+		n1 = 2;
+		n2 = 10;
+		
+		System.out.println(n1&n2);
+		System.out.println(n1|n2);
+		System.out.println(n1^n2);
+		System.out.println(~n1);	//5번 문제
+		
+		num = 8;
+		
+		System.out.println(num +=10);
+		System.out.println(num-=10);
+		System.out.println(num>>=2);	//6번 문제
+		
+		n1=10;
+		n2=20;
+		int result = (n1 >= 10) ? n2 +10 : n2 -10;
+		System.out.println(result);	//7번 문제
 	}
 }
