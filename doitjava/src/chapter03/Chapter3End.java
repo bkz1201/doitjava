@@ -1,7 +1,5 @@
 package chapter03;
 
-import com.sun.org.apache.xpath.internal.operations.Equals;
-
 public class Chapter3End {
 	public static void main(String[] args) {
 		int myAge = 23;
