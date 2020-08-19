@@ -9,8 +9,8 @@ public class SwitchEx3 {
 		case 1:
 		case 3:
 		case 5:
-		case 7:
-		case 8:
+		case 7: 
+		case 8: 
 		case 10:
 		case 12:
 			System.out.println(thisMon + "월은 31일까지 입니다.");
