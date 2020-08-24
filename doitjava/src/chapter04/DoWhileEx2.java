@@ -15,7 +15,7 @@ public class DoWhileEx2 {
 			iStr = scan.nextLine();
 			System.out.println(iStr);
 		} while (!iStr.equals("q"));
-		System.out.println();
+		System.out.println(); 
 		System.out.println("프로그램 종료");
 		scan.close();
 	}
