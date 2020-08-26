@@ -29,7 +29,7 @@ public class Chapter4Last {
 		/* 연습문제 4 */
 		int n = 3;
 		int f = 0;
-		for (int i = 1; i <= 7; i += 2) {
+		for (int i = 1; i <= 7; i += 2) { 
 			for (int j = 0; j < i; j++) {
 				for (int k = 0; k < n; k++) {
 					if (f == 1)
