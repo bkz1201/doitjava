@@ -69,14 +69,14 @@ public class Rock {
 		int dcnt=0;
 		while(true) {
 			System.out.println("현제 체력 : "+life+" 점수 : "+score);
-			System.out.println("1바위 2가위 3보 낼것을 숫자로 입력하시오");
+			System.out.println("1바위 2가위 3보 낼것을 숫자로 입력하시오.");
 			m=sc.nextInt();
 			com = (int) (Math.random() * 3) + 1;
 			
 			if((com==GA && m==BA)||(com==BA&&m==BO)||(com==BO&&m==GA)) {
 				System.out.println("내가 낸것은 "+(m==BA ? "바위":(m==GA ? "가위":"보")));
 				System.out.println("상대가 낸것은 "+(com==BA ? "바위":(com==GA ? "가위":"보")));
-				System.out.println("유저 승");
+				System.out.println("승리");
 				score+=100;
 				wcnt++;
 			}
@@ -94,7 +94,7 @@ public class Rock {
 			else {
 				System.out.println("내가 낸것은 "+(m==BA ? "바위":(m==GA ? "가위":"보")));
 				System.out.println("상대가 낸것은 "+(com==BA ? "바위":(com==GA ? "가위":"보")));
-				System.out.println("컴퓨터 승");
+				System.out.println("패배");
 				life--;
 			}
 			if(life<=0) {
