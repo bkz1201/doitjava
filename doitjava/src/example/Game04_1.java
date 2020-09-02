@@ -12,7 +12,7 @@ public class Game04_1 {
 		for(int i=2;i<=n;i++) {
 			cnt++;
 			for(int j=2;j<=i/2;j++) {
-				if(i % j == 0) {
+				if(i%2==0 ||i % j == 0) {
 					cnt--;
 					break;
 				}
