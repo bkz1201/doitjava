@@ -11,18 +11,23 @@ public class Game04 {
 		int n = sc.nextInt();
 		int check = 0;
 		int cnt = 0;
-		for (int i = 2; i <= n; i++) {		//1~n까지
+		
+		for (int i = 2; i <= n; i++) { // 1~n까지
 			check = 0;
-			for (int j = 2; j <= i; j++) {	//2~i까지
-				if (i % j == 0) {
-					check++;				//i를 j로 나눴을때 나머지가 0이면 check++
+			for (int j = 2; j <= i / 2; j++) { // 2~i까지
+				if (i != 2 && i % 2 == 0) {
+					check++;
+					break;
 				}
-				if (check > 1)				//check가 1보다 크면 소수가아니어서 내부for문 빠져나감
-					break;				
+				else if (i % j == 0) {
+					check++; // i를 2부터 j(==i/2까지)로 나눴을때 나머지가 0이면 check++
+				}
+				if (check > 0) // check가 0보다 크면 소수가아니어서 내부for문 빠져나감
+					break;
 			}
-			if (check == 1) {				//check가 1이면 소수
-				cnt++;
-				System.out.print(i + " ");
+			if (check == 0) { // check가 0이면 소수
+				cnt++; // 갯수 1증가
+				// System.out.print(i + " ");
 			}
 		}
 		System.out.println();
