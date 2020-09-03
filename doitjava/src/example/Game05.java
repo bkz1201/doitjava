@@ -26,6 +26,7 @@ public class Game05 {
 
 //		System.out.println(avg >= 91 ? "A등급" : avg >= 81 ? "B등급" : avg >= 71 ? "C등급" : "F등급");
 //		System.out.println("평균점수 : " + avg);
+
 //		if (avg >= 91)
 //			grade = 'A';
 //		else if (avg >= 81)
@@ -34,6 +35,7 @@ public class Game05 {
 //			grade = 'C';
 //		else
 //			grade = 'F';
+
 //		switch ((int) avg / 10) {
 //		case 9:
 //			grade = 'A';
