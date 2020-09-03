@@ -21,5 +21,8 @@ public class Exxxxx {
 		//a.equals(b) a변수와 b가 같은가?
 		
 		//charAt(n); 문자열의 n번째 글자를 불러오는?
+		
+		//char,String 형 배열 기본값 null
+		//int 형 배열 기본값 0
 	}
 }
