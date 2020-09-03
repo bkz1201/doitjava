@@ -17,7 +17,9 @@ public class Exxxxx {
 //		System.out.println(--iNum);
 //		System.out.println(--iNum);	//오버플로우
 		
+		//값 비교시
+		//a.equals(b) a변수와 b가 같은가?
 		
-		//값으 내용 비교시 equals
+		//charAt(n); 문자열의 n번째 글자를 불러오는?
 	}
 }
