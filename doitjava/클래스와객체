@@ -47,4 +47,8 @@ int add(int num1, int num2){ //int형을 리턴한다 num1과 num2 정수 2개를 입력받음
 	int result;
 	result = num1 + num2;
 	retrun result;		//result 라는 정수를 반환
-}
+	
+	
+스택
+프링글스.
+
