@@ -14,7 +14,7 @@ public class Operator {
 	}
 
 	int div(int n, int m) {
-		if (m == 0 || n == 0) {
+		if (m == 0) {
 			System.out.println("0으로 나눌 수 없습니다.");
 			return 0;
 		}
