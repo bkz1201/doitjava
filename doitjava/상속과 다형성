@@ -1,0 +1,10 @@
+상속과 다형성
+A상위 클래스 B하위클래스
+
+class B extends A{
+}
+
+final 클래스 상속X
+final 메소드 override X
+
+protected 패키지가 달라도 자식패키지에서 호출할수있다 super
