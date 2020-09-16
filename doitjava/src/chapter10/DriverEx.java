@@ -11,6 +11,17 @@ public class DriverEx {
 		driver.drive(bus);
 		driver.drive(taxi);
 
+		Vehicle d;
+		d = new Vehicle() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("슈퍼카가 달린");
+			}
+		};
+		d.run();
+			
 		
 	}
 }
