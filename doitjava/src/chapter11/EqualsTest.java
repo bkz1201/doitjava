@@ -39,5 +39,12 @@ public class EqualsTest {
 			System.out.println("stLee와 stSang는 동일합니다.");
 		else
 			System.out.println("stLee와 stSang는 동일하지 않습니다.");
+		
+		if(stLee.studentName==stSang.studentName)
+		{
+			System.out.println("같다");
+		}
+		else
+			System.out.println("다르다");
 	}
 }
