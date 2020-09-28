@@ -17,6 +17,6 @@ public class AsDoubleStreamAndBoxedEx {
 		intStream = Arrays.stream(intArr);
 		intStream.boxed().forEach(obj -> System.out.println(obj.intValue()));
 //		IntStream iS = intStream.boxed();
-		Stream<Integer> iS2= intStream.boxed();
+		Stream<Integer> iS2 = intStream.boxed();
 	}
 }
